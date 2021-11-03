@@ -71,6 +71,7 @@ class Band(Musician):
     def __init__(self, name, members):
         self.name = name
         self.members=members
+
     def __str__(self):
         return 
     def __repr__(self):
